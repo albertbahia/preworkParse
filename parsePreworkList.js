@@ -34,9 +34,9 @@ let csvStreamTwo = csv()
 streamOne.pipe(csvStreamOne);
 
 // Delay the reading of the second CSV after the first CSV is read
-setTimeout(function() {
-   streamTwo.pipe(csvStreamTwo);   
-}, 3000);
+// setTimeout(function() {
+//    streamTwo.pipe(csvStreamTwo);   
+// }, 3000);
 
 // Display stream one array
 
