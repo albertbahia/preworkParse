@@ -2,8 +2,8 @@ let fs = require('fs'),
     csv = require('fast-csv');
 
 //  Read and load the csv's
-let streamOne = fs.createReadStream('student_list_prework_drops.csv'),
-    streamTwo = fs.createReadStream('prework_url_student_list_bcsv2_all.csv'),
+let streamOne = fs.createReadStream('/sources/student_list_prework_drops.csv'),
+    streamTwo = fs.createReadStream('/sources/prework_url_student_list_bcsv2_all.csv'),
     streamOneArray = [],
     streamTwoArray = [];
 
